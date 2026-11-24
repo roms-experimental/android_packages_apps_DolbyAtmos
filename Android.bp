@@ -15,6 +15,7 @@ android_app {
     platform_apis: true,
     system_ext_specific: true,
     privileged: true,
+    privapp_allowlist: "org.lunaris.dolby.xml",
 
     overrides: ["MusicFX", "AudioFX"],
     static_libs: [
